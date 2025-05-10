@@ -7,7 +7,7 @@ def extract_video_id(url):
 
 import requests
 
-YOUTUBE_API_KEY = "AIzaSyACi9KpYoUU8I0MVWGdS_n1fOFswc1EuAw"
+YOUTUBE_API_KEY = "your api key "
 
 def get_youtube_comments(video_id, max_results=10):
     """Fetches comments from a YouTube video."""
